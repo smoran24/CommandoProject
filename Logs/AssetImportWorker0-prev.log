@@ -1,0 +1,875 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 7123 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sebia/source/repos/tps-lab2/Commando (v020921)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58907
+Successfully changed project path to: C:/Users/sebia/source/repos/tps-lab2/Commando (v020921)
+C:/Users/sebia/source/repos/tps-lab2/Commando (v020921)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 124.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sebia/source/repos/tps-lab2/Commando (v020921)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R7 Graphics (ID=0x130f)
+    Vendor:   
+    VRAM:     3561 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003997 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1929ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2147ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1776ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (749ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2480 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 105.1 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2897.
+Total: 7.879000 ms (FindLiveObjects: 0.704800 ms CreateObjectMapping: 0.644600 ms MarkObjects: 6.381000 ms  DeleteObjects: 0.146400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 1.png
+  artifactKey: Guid(b5872a8f8cd3ca948b698e798ffe8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 1.png using Guid(b5872a8f8cd3ca948b698e798ffe8c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3561071f335308cfc6f098e87b0833f9') in 0.626396 seconds 
+  Import took 0.656806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 2.png
+  artifactKey: Guid(f35baa6c4a6503c4682aec358e3e7d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 2.png using Guid(f35baa6c4a6503c4682aec358e3e7d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807fb37c92c7c0d3285f2c23fc8e39ba') in 0.614631 seconds 
+  Import took 0.639256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseSideVent.png
+  artifactKey: Guid(4ab1a8ac48591924f8efe29340dd9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseSideVent.png using Guid(4ab1a8ac48591924f8efe29340dd9d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad81080012c2888fc649121746b8e18d') in 0.067561 seconds 
+  Import took 0.104687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Containers/Container 1.png
+  artifactKey: Guid(6dbd481c75bb4f341b90f81276ce74eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Containers/Container 1.png using Guid(6dbd481c75bb4f341b90f81276ce74eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a58570b8105f72b09d1cd009a6217ce') in 0.136853 seconds 
+  Import took 0.154176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Electricals Box.png
+  artifactKey: Guid(194f1d2d692cef547a81b45c5ca0824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Electricals Box.png using Guid(194f1d2d692cef547a81b45c5ca0824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80654b3e9656a5a2ec85633c02b88dce') in 0.060001 seconds 
+  Import took 0.068128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/Hull.png
+  artifactKey: Guid(aa1017bf8c6164842acb5c0edec51a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/Hull.png using Guid(aa1017bf8c6164842acb5c0edec51a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33026f21ef3484756d1a4b1de70f6e75') in 0.278201 seconds 
+  Import took 0.294988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/Cannon.png
+  artifactKey: Guid(3ba519f0972e52f4fb22ed5adba18f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/Cannon.png using Guid(3ba519f0972e52f4fb22ed5adba18f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f242f7aedb3a1da0ffbd2122af55a4') in 0.111090 seconds 
+  Import took 0.133008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Dust Cloud/Dust Cloud.png
+  artifactKey: Guid(3b39b33ddd82c9141ab576946b94855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Dust Cloud/Dust Cloud.png using Guid(3b39b33ddd82c9141ab576946b94855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6784ddc181662275b1e04523beb48f') in 0.093950 seconds 
+  Import took 0.113638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 8.png
+  artifactKey: Guid(c8d4a8b3a1693c24793038d49b8513ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 8.png using Guid(c8d4a8b3a1693c24793038d49b8513ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6735163a8af66fc69f39cdb1d1427a') in 0.588297 seconds 
+  Import took 0.595451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Dust Cloud/_PSD_.psd
+  artifactKey: Guid(c947ab5c6b5c8cc4bbd8779f0583cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Dust Cloud/_PSD_.psd using Guid(c947ab5c6b5c8cc4bbd8779f0583cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3eae88f43b2b0562f0fe8e9bfcdb80f') in 0.424652 seconds 
+  Import took 0.430807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 3.png
+  artifactKey: Guid(8c54552b8c2df6d47b80cebca0ccae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 3.png using Guid(8c54552b8c2df6d47b80cebca0ccae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab842f1cbc9d70d43f6d4d3a5ef583b') in 0.585338 seconds 
+  Import took 0.604123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Extra/Bar.png
+  artifactKey: Guid(315d0ce4078205f4c9b7dc6101214662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Extra/Bar.png using Guid(315d0ce4078205f4c9b7dc6101214662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b936ce7111ee7fbc126891ee2e3a2f') in 0.070722 seconds 
+  Import took 0.077393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 3/_PSD_.psd
+  artifactKey: Guid(49686fd8e29c76d47acd618575faac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 3/_PSD_.psd using Guid(49686fd8e29c76d47acd618575faac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803703628ac176b8de5057f6d9227b6b') in 0.101606 seconds 
+  Import took 0.108205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 1.png
+  artifactKey: Guid(b03d983662aedb647a0092ef4b8ff435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 1.png using Guid(b03d983662aedb647a0092ef4b8ff435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8cb885ad7edc7b41c554e6be138881') in 0.622688 seconds 
+  Import took 0.640136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/_PSD_.psd
+  artifactKey: Guid(41b691af2ac84bf469e82ea57c5648d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/_PSD_.psd using Guid(41b691af2ac84bf469e82ea57c5648d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9db2e3ff0105f144db0bf5450f0381a') in 0.074612 seconds 
+  Import took 0.096937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 5.png
+  artifactKey: Guid(0c49e682a0ec8524b89ea5bebbfdbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 5.png using Guid(0c49e682a0ec8524b89ea5bebbfdbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b20a20ef3c1b7d90b2973617176fc8') in 0.879473 seconds 
+  Import took 0.900280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Dimensional Developer/Resources/Editor UI/_PSD_.psd
+  artifactKey: Guid(e6427a7c43d708e478995b4d8cd907d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Editor UI/_PSD_.psd using Guid(e6427a7c43d708e478995b4d8cd907d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcafc0dc4af3d1169a18edc941891da') in 0.147462 seconds 
+  Import took 0.171376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/Cracks.png
+  artifactKey: Guid(10f06c30d34ca9b4fa722029bcfa079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/Cracks.png using Guid(10f06c30d34ca9b4fa722029bcfa079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89146dbbee794dee72c7dc123ebfce4b') in 0.132715 seconds 
+  Import took 0.144320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseSides.png
+  artifactKey: Guid(72a50e0d039625a4e99f7dbaf4096855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseSides.png using Guid(72a50e0d039625a4e99f7dbaf4096855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0718d8b7ae9240809961b129448d12f') in 0.210955 seconds 
+  Import took 0.228185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 8.png
+  artifactKey: Guid(4c82f5982d0df8445bdd9897b8622119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 8.png using Guid(4c82f5982d0df8445bdd9897b8622119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9441f5990858e2bb5ad53c771e0abfa') in 0.953902 seconds 
+  Import took 0.963901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Fire/Flames.png
+  artifactKey: Guid(d008287d566168a44a3d561625483ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Fire/Flames.png using Guid(d008287d566168a44a3d561625483ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88c29767639888d4ad4a8f7b0326f95') in 0.070859 seconds 
+  Import took 0.077091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Bullet Holes/Bullet Holes.png
+  artifactKey: Guid(83ffe06aa3868694aa8cd39158c93c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Bullet Holes/Bullet Holes.png using Guid(83ffe06aa3868694aa8cd39158c93c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d089991b668ec4ac2a5289c0a4b597') in 0.058886 seconds 
+  Import took 0.082771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Dimensional Developer/Resources/Editor UI/camera.png
+  artifactKey: Guid(6439513506967734e8bfbbbd9802e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Editor UI/camera.png using Guid(6439513506967734e8bfbbbd9802e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c32e555681af516e6604c87725938f') in 0.093669 seconds 
+  Import took 0.102633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 5.png
+  artifactKey: Guid(73df3531ce82a1042aea12730e08750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 5.png using Guid(73df3531ce82a1042aea12730e08750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc80aeb2c69d048e11da5482687b3d22') in 0.739946 seconds 
+  Import took 0.752095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/Dimensional Developer/Resources/Editor UI/eye_closed.png
+  artifactKey: Guid(207748b4c314e2c43bc19a9934410297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Editor UI/eye_closed.png using Guid(207748b4c314e2c43bc19a9934410297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5858f212a15260fbef4dd832c2f3c65e') in 0.088491 seconds 
+  Import took 0.108179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 2.png
+  artifactKey: Guid(1bea98f6e39a7f8468062390661f15e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 2.png using Guid(1bea98f6e39a7f8468062390661f15e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7909959634d58d631970a68e22b95e6e') in 0.691735 seconds 
+  Import took 0.709838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/Additional Color.png
+  artifactKey: Guid(03b015006d3905941999d107ed39ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/Additional Color.png using Guid(03b015006d3905941999d107ed39ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42dd94fb5cfda32d3a9fa446eafa4c2') in 0.279823 seconds 
+  Import took 0.294044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Handles.png
+  artifactKey: Guid(fc99f96eea143f44fb1cab7eaa963796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Handles.png using Guid(fc99f96eea143f44fb1cab7eaa963796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f565fe6002260f59af30cd36dccce2') in 0.098946 seconds 
+  Import took 0.105250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 6.png
+  artifactKey: Guid(433546a34a492d747b4f58be89be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 6.png using Guid(433546a34a492d747b4f58be89be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd588be2de904b7b6d6afd6e7b481278e') in 0.749441 seconds 
+  Import took 0.783036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/ShooterSpritePack/Trenches/Ground.png
+  artifactKey: Guid(4552154f45a65934eb9e3d5297481d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShooterSpritePack/Trenches/Ground.png using Guid(4552154f45a65934eb9e3d5297481d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfcc6bef0e6b61fe13d6b32707da4a3') in 0.075874 seconds 
+  Import took 0.111976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/Imact Point.png
+  artifactKey: Guid(58fdfb864be497c4f98006e1feaab3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Scorch Marks/Imact Point.png using Guid(58fdfb864be497c4f98006e1feaab3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1480dee72080e36b7311247d6a4d37e') in 0.111692 seconds 
+  Import took 0.135568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/LandMine/_PSD_.psd
+  artifactKey: Guid(1f3d1b8e27412b148a09b2e50d117330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/LandMine/_PSD_.psd using Guid(1f3d1b8e27412b148a09b2e50d117330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba3178a8e30e2833da13595e083f3da') in 0.102706 seconds 
+  Import took 0.109306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Circuit Box.png
+  artifactKey: Guid(2cd084e30b466354a94adb7f124b995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Boxes/Circuit Box.png using Guid(2cd084e30b466354a94adb7f124b995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9adafdc169d18c2096bee809938cf54') in 0.083821 seconds 
+  Import took 0.092103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/___Cannon PSD___.psd
+  artifactKey: Guid(1ae4f610f134b9c439c266810e18c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/___Cannon PSD___.psd using Guid(1ae4f610f134b9c439c266810e18c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246bace9508db0a2ba7dee892538f98b') in 0.165701 seconds 
+  Import took 0.190197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 4.png
+  artifactKey: Guid(56005b1d6cff0b24491f55693965d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 4.png using Guid(56005b1d6cff0b24491f55693965d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38aec649a6a9afdabf358ffce96927f') in 0.810712 seconds 
+  Import took 0.841813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 7.png
+  artifactKey: Guid(a3af6e4cd518a55459ce37984264de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 7.png using Guid(a3af6e4cd518a55459ce37984264de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eb369cfbd0c83d549ca32df9912767') in 0.642766 seconds 
+  Import took 0.652618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 6.png
+  artifactKey: Guid(33468782fd1512e4989d454c943616fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 6.png using Guid(33468782fd1512e4989d454c943616fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d1fb2ff4b62bc7d1cffd0d2acc6309') in 0.705459 seconds 
+  Import took 0.739962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Small Rocks/_PSD_.psd
+  artifactKey: Guid(061181afa2305414c9dd48d5e34fcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Small Rocks/_PSD_.psd using Guid(061181afa2305414c9dd48d5e34fcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0878b43c3ab87f574f493f1ad5066f5') in 0.058935 seconds 
+  Import took 0.065460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Fire/_PSD_.psd
+  artifactKey: Guid(9526dbfaa913fb34abf0da5be9dedf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Fire/_PSD_.psd using Guid(9526dbfaa913fb34abf0da5be9dedf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc748c98a5456f81c4cf6abe17c8cf78') in 0.085234 seconds 
+  Import took 0.091774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Doors/Hatch.png
+  artifactKey: Guid(8f6303e09c58e1b419ed106aecb4b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Doors/Hatch.png using Guid(8f6303e09c58e1b419ed106aecb4b4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbff6f98f87f5b176b2b37e01f0f534') in 0.092898 seconds 
+  Import took 0.099992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/Base.png
+  artifactKey: Guid(5be8a9412e1da00429aa7e099e9297ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/Base.png using Guid(5be8a9412e1da00429aa7e099e9297ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49db33c5038d2942dc8c83a4e5e6b8c') in 0.133224 seconds 
+  Import took 0.140854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseVent.png
+  artifactKey: Guid(c0a7d294efd6b374b91035aa89b493ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Cannon/BaseVent.png using Guid(c0a7d294efd6b374b91035aa89b493ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcda0daa2067fdb39d55761769c73558') in 0.070146 seconds 
+  Import took 0.076576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 2/_PSD_.psd
+  artifactKey: Guid(2a534127b79f72f4f8c955da6fef0735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 2/_PSD_.psd using Guid(2a534127b79f72f4f8c955da6fef0735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e0c36d172df4135f5203bace7926d2') in 0.100595 seconds 
+  Import took 0.108544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Landscape/_PSD_.psd
+  artifactKey: Guid(ae1034c5f36672d4b9b6a7f2f453db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Landscape/_PSD_.psd using Guid(ae1034c5f36672d4b9b6a7f2f453db80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea85f8113328c2794a5f3870fc1b30a6') in 0.124451 seconds 
+  Import took 0.149129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Bullet Holes/_PSD_.psd
+  artifactKey: Guid(0f9d507e645aeab45a8d574b032a334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Particles/Bullet Holes/_PSD_.psd using Guid(0f9d507e645aeab45a8d574b032a334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fb4e0cbc8afccaa6b90fa551cc3f87') in 0.238237 seconds 
+  Import took 0.247879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Dimensional Developer/Resources/Editor UI/edit.png
+  artifactKey: Guid(2e7c0d52ff50d8341acb45fe65184785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Editor UI/edit.png using Guid(2e7c0d52ff50d8341acb45fe65184785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92922f097911b1812760a6fc786e8f69') in 0.074269 seconds 
+  Import took 0.099384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Dimensional Developer/Resources/Editor UI/eye_open.png
+  artifactKey: Guid(e1a77bf1bcc5d7b4daa0f8b2d1546a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Editor UI/eye_open.png using Guid(e1a77bf1bcc5d7b4daa0f8b2d1546a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce6cbd94b51b3bc1fd930cbd800f526') in 0.093223 seconds 
+  Import took 0.100004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 1/_PSD_.psd
+  artifactKey: Guid(8abe50d060d0cbc4c9b5df33bf1d3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Rocks/Rock 1/_PSD_.psd using Guid(8abe50d060d0cbc4c9b5df33bf1d3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0462188c167ebbc0e96f3cff2ecd9ea') in 0.081461 seconds 
+  Import took 0.096753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/___Hull PSD___.psd
+  artifactKey: Guid(23486bda964fabd4da4fab5d722771bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Hull/___Hull PSD___.psd using Guid(23486bda964fabd4da4fab5d722771bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f6e5c20f42a9ccd03be2a1efc66f96') in 0.090664 seconds 
+  Import took 0.145235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 4.png
+  artifactKey: Guid(8e95e296b404142449199f9a1a4f2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 4.png using Guid(8e95e296b404142449199f9a1a4f2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545cd56c73cfeb41fe572b0ae769e02') in 0.681368 seconds 
+  Import took 0.690160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Containers/Container 2.png
+  artifactKey: Guid(fb064631ce7eb3042adc4e163955247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Containers/Container 2.png using Guid(fb064631ce7eb3042adc4e163955247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad117fbcd390599fdc6b11d3859333f') in 0.114410 seconds 
+  Import took 0.131454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 7.png
+  artifactKey: Guid(b004ea7721b81814e8da14b87ab8869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/2048 x 2048/explosion 7.png using Guid(b004ea7721b81814e8da14b87ab8869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9a6fc7d33ba80bb163aca2b32e25a0') in 0.540681 seconds 
+  Import took 0.557595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Extra/Gun.png
+  artifactKey: Guid(cb15c62738df15f4da944289e981ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Resources/Tank Builder/Sprites/Extra/Gun.png using Guid(cb15c62738df15f4da944289e981ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b065de69bc5aa4e02fc90bda42dde4') in 0.089646 seconds 
+  Import took 0.097307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/LandMine/LandMine.png
+  artifactKey: Guid(472a69e30790d6348a6aa1be0699d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/LandMine/LandMine.png using Guid(472a69e30790d6348a6aa1be0699d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cd79fc180fa4ba7f882eb6f734e981') in 0.098299 seconds 
+  Import took 0.105086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 3.png
+  artifactKey: Guid(052dd2342224d68469a8af5b93425fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dimensional Developer/Tank Builder/Demo/Sprites/Explosions/4096 x 4096/explosion 3.png using Guid(052dd2342224d68469a8af5b93425fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884563c56b008481c3a5ad8911d1ae7c') in 0.649975 seconds 
+  Import took 0.658442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.497742 seconds.
+  path: Assets/Ammo.prefab
+  artifactKey: Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammo.prefab using Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e038247452ba5445cff511f58ff9c2d') in 0.118887 seconds 
+  Import took 0.134647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001382 seconds.
+  path: Assets/Ammo.prefab
+  artifactKey: Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammo.prefab using Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e038247452ba5445cff511f58ff9c2d') in 0.061771 seconds 
+  Import took 0.071515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.465127 seconds.
+  path: Assets/Ammo.prefab
+  artifactKey: Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ammo.prefab using Guid(f09f6977ba9357d458d80c4a35c6b77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca4b277d522fd518242d7fe102ea82d') in 0.073209 seconds 
+  Import took 0.084753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3083ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2775ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (548ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (1417ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (81ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 39.711100 ms (FindLiveObjects: 3.665600 ms CreateObjectMapping: 0.704600 ms MarkObjects: 35.280500 ms  DeleteObjects: 0.058100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.951 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (569ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 6.095400 ms (FindLiveObjects: 0.514900 ms CreateObjectMapping: 0.130100 ms MarkObjects: 5.397500 ms  DeleteObjects: 0.050800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1613ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 5.646600 ms (FindLiveObjects: 0.560300 ms CreateObjectMapping: 0.118200 ms MarkObjects: 4.916200 ms  DeleteObjects: 0.049100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1642ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2960.
+Total: 5.876300 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.135400 ms MarkObjects: 5.161400 ms  DeleteObjects: 0.052100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1655ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 5.958300 ms (FindLiveObjects: 0.556400 ms CreateObjectMapping: 0.132000 ms MarkObjects: 5.208300 ms  DeleteObjects: 0.058600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
